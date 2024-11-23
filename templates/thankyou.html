@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; /* Light background color */
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2em;
+            font-style: italic;
+            color: #333;
+            margin: 20px 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+        .col {
+            flex: 1 1 calc(50% - 20px); /* Ensure two columns side by side */
+            max-width: 500px;
+            margin-bottom: 20px;
+        }
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ccc;
+        }
+        .card-body {
+            padding: 15px;
+        }
+        .card-title {
+            font-size: 1.2em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .card-text {
+            font-size: 1em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>WELCOME TO PINSPIRE!!</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <img src="/static/sayit.jpg" class="card-img-top" alt="Say it without really saying it">
+                    <div class="card-body">
+                        <h5 class="card-title">Say it without really saying it</h5>
+                        <p class="card-text">POV: You're on the most chill vacation...These no-face vac photos are such a vibe!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="/static/newnails.jpg" class="card-img-top" alt="New season, new nails">
+                    <div class="card-body">
+                        <h5 class="card-title">New season, new nails</h5>
+                        <p class="card-text">These winter manicure ideas will make you want to book your next nail appointment right away.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <img src="/static/winter.jpg" class="card-img-top" alt="Winter aesthetic">
+                    <div class="card-body">
+                        <h5 class="card-title">Do it your way</h5>
+                        <p class="card-text">Capture that winter aesthetic. Express your winter vibe in your unique way.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="/static/scorpio.jpg" class="card-img-top" alt="Cakes for your Scorpio friend">
+                    <div class="card-body">
+                        <h5 class="card-title">Customize it! Cakes for your Scorpio friend</h5>
+                        <p class="card-text">These are the cakes you need to order for your Scorpio friend and make them feel extra special.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
